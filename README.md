@@ -2,6 +2,7 @@
 
 #![preview_stock_data_scraper](https://github.com/niggonator/Realtime-stock-data-scraper/assets/167204297/7a9bdb57-39ea-470a-acf2-e283f279a5dd)
 
+
 ## Getting Started
 Feel free to use and implement my stock data scraper!
 
