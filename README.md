@@ -16,7 +16,8 @@ You need:
 4. datetime
 
 
-Install via: pip install yfinance datetime
+Install via: 
+    pip install yfinance datetime
 
 # Copyright
 
