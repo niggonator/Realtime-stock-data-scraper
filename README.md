@@ -3,11 +3,13 @@
 #![preview_stock_data_scraper](https://github.com/niggonator/Realtime-stock-data-scraper/assets/167204297/7a9bdb57-39ea-470a-acf2-e283f279a5dd)
 
 
-## Getting Started
+# Getting Started
 Feel free to use and implement my stock data scraper!
 
 This stock data scraper is based on the yahoofinance api called yfinance.
+
 It has a refresh-rate performance of 11-20 milliseconds.
+
 It runs a parallell task for each stock and writes the data into a seperate .csv file for each stock.
 
 ## Requirements
