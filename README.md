@@ -7,7 +7,7 @@ Feel free to use and implement my stock data scraper!
 
 This stock data scraper is based on the yahoofinance api called yfinance.
 
-It runs a parallell task for each stock and writes the data into a seperate .csv file for each stock.
+It runs a parallell task for each stock and writes the data into a separate .csv file for each stock.
 
 ## Requirements
 You need:
