@@ -21,9 +21,12 @@ def get_stock_data(ticker):
             writer = csv.writer(file)
             writer.writerow([ticker, latest_date, latest_time, latest_price])
 
+        #Show the latest stock value in terminal
+        print(f"{ticker},{latest_date},{latest_time},{latest_price}")
+
 if __name__ == "__main__":
     # Get the tickers from the user
-    tickers = input("Enter the tickers (separated by commas): ").split(",")
+    tickers = input("Enter the stocks (separated by commas): ").split(",")
 
     # Run the stock data scraperin parallel, one process per ticker
     processes = []
