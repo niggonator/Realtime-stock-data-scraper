@@ -17,7 +17,9 @@ You need:
 
 
 Install via: 
+
     pip install yfinance datetime
+
 
 # Copyright
 
