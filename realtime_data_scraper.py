@@ -46,6 +46,9 @@ def get_realtime_stock_price(ticker):
                     last_logged_date = latest_date
                 else:
                     writer.writerow(["", latest_time, latest_price])
+
+                #Show the latest stock value in terminal
+                print(f"{ticker},{latest_date},{latest_time},{latest_price}")
         except Exception as e:
             print(f"Failed to fetch real-time prices for {ticker}: {e}")
 
