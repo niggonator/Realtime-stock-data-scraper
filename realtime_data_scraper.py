@@ -64,4 +64,4 @@ if __name__ == "__main__":
         real_time_processes.append(p2)
 
     for p in daily_processes + real_time_processes:
-        p.join()  # Optionally, though they are intended to run indefinitely
+        p.join() 
